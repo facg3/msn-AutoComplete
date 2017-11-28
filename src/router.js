@@ -7,7 +7,7 @@ const router=(request,response)=>{
 else if(endpoint.startsWith('/public')){
   handlers.generic(request,response);
 }
-else if(endpoint=== '/countries.json'){
+else if(endpoint=== '/countries'){
   handlers.handleResult(request,response);
 }
 else{

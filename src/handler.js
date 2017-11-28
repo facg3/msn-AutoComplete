@@ -38,26 +38,25 @@ const generic =(request,response)=>{
       }
 });
 };
-
 const handleResult = (request, response) => {
   fs.readFile(path.join(__dirname + '/countries.json'), (error,result) =>
   {
     if(error){
-      response.writeHead(500,'content-Type:text/html');
+      response.writeHead(500,'Content-Type : text/html');
       response.end('<h1> Internal server Error </h1>');
     }
     else {
       const resultToObject = JSON.parse(result);
-      console.log('asdasdasdasdasd');
-      console.log(resultToObject);
-      const allValues = "";
+      let allValues = "";
       request.on('data', chunckOfData =>{
         allValues += chunckOfData;
       });
-      const convertedValues = querystring.parse(allValues);
-      console.log('all values');
-      console.log(convertedValues);
-      checkAndFillter(resultToObject,allValues);
+      request.on('end', ()=>{
+          const filteredResult = checkAndFillter(allValues,resultToObject);
+        response.end(JSON.stringify(filteredResult));
+        // checkAndFillter(allValues,resultToObject);
+      })
+
     }
   });
 }
