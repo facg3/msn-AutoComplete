@@ -7,7 +7,7 @@ function Listener() {
       console.log('space');
     }
     else {
-      console.log(input.value);
+      return input.value;
     }
   }
 }
