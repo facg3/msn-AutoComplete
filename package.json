@@ -1,0 +1,22 @@
+{
+  "name": "msn-autocomplete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facg3/msn-AutoComplete.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facg3/msn-AutoComplete/issues"
+  },
+  "homepage": "https://github.com/facg3/msn-AutoComplete#readme",
+  "dependencies": {
+    "tape": "^4.8.0"
+  }
+}
