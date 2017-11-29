@@ -54,7 +54,6 @@ const handleResult = (request, response) => {
       request.on('end', ()=>{
           const filteredResult = checkAndFillter(allValues,resultToObject);
         response.end(JSON.stringify(filteredResult));
-        // checkAndFillter(allValues,resultToObject);
       })
 
     }
