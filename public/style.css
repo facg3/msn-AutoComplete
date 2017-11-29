@@ -37,7 +37,7 @@ body{
     color: #444;
 
 }
-button {
+button{
   display: inline-block;
   border-radius: 3px;
   border: none;
@@ -52,20 +52,6 @@ button {
   text-align: center;
   background-color: black;
 }
-
-
-/*.page-banner button {
-    width: 90%;
-    max-width: 300px;
-    margin: 20px auto;
-    display: block;
-    padding: 8px;
-    border: 1px solid white;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: rgb(143, 241, 238);
-    color: black;
-}*/
 h1{
     width: 100%
     text-align: center;
@@ -73,39 +59,3 @@ h1{
     justify-content: center;
     font-weight: normal;
 }
-/*#countriesList{
-margin-top: -10px;
-width: 100%%;
-max-width: 300px;
-margin: 20px auto;
-display: block;
-padding: 8px;
-border: 1px solid #ddd;
-border-radius: 4px;
-font-size: 16px;
-color: #444;
-height: 100%;
-}
-option{
-border: 1px solid #ddd;
-margin-top: -1px; /* Prevent double borders */
-background-color: #f6f6f6;
-padding: 12px;
-text-decoration: none;
-font-size: 18px;
-color: black;
-display: block
-}*/
-
-/*.search-btn{
-    color: white;
-    width: 100px;
-    height: 50px;
-    text-decoration: none;
-    margin: 10px auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    cursor: pointer;
-    border-radius: 20px;
-  }*/

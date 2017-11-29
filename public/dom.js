@@ -5,8 +5,8 @@
     'keyup', (event) => {
       var inputValue = input.value;
       if (event.keyCode < 57) {
-        return ;
-      }else{
+        return ;}
+        else{
       var xhr = new XMLHttpRequest();
       var link = "/countries";
       xhr.onreadystatechange = () => {
