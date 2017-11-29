@@ -45,8 +45,6 @@ h1{
     font-weight: normal;
 }
 
-#map{
-height: 240px;
-width: 100%;
-background-color:gray;
+#mapid{
+height: 350px;
 }
