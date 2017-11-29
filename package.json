@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js",
     "start": "node src/server.js",
     "watch": "nodemon src/server.js"
   },
@@ -18,7 +17,10 @@
     "url": "https://github.com/facg3/msn-AutoComplete/issues"
   },
   "homepage": "https://github.com/facg3/msn-AutoComplete#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "tap-spec": "^4.1.1",
     "tape": "^4.8.0"
   }
 }
