@@ -5,16 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="public/style.css">
   <title>Msn autocomplete</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
 </head>
 
 <body>
   <div class="wrapper">
     <div class="page-banner">
       <label for = "countyName"><h1>MSN autocomplete</h1></label>
-      <input id = "countyName" type="text" list="countriesList" class="search_query" placeholder="country name"/>
-      <datalist id="countriesList"></datalist>
     </div>
-    <div class="map-results"></div>
+    <div class="map-results">
+      <form id="countriesForm">
+        <input id = "countyName" name="input" type="text" list="countriesList" class="search_query" placeholder="country name"/>
+        <datalist id="countriesList"></datalist>
+      </form>
+      <div name="map" id="map"></div>
+    </div>
     <script src="public/dom.js"></script>
 </div>
 </body>
