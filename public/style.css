@@ -35,7 +35,25 @@ body{
     border-radius: 4px;
     font-size: 16px;
     color: #444;
+
 }
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8em;
+  border: 1px solid #ddd;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+
 /*.page-banner button {
     width: 90%;
     max-width: 300px;
@@ -55,6 +73,29 @@ h1{
     justify-content: center;
     font-weight: normal;
 }
+/*#countriesList{
+margin-top: -10px;
+width: 100%%;
+max-width: 300px;
+margin: 20px auto;
+display: block;
+padding: 8px;
+border: 1px solid #ddd;
+border-radius: 4px;
+font-size: 16px;
+color: #444;
+height: 100%;
+}
+option{
+border: 1px solid #ddd;
+margin-top: -1px; /* Prevent double borders */
+background-color: #f6f6f6;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+color: black;
+display: block
+}*/
 
 /*.search-btn{
     color: white;

@@ -1,6 +1,6 @@
 [
 {"name": "Afghanistan", "code": "AF"},
-{"name": "Åland Islands", "code": "AX"},
+{"name": "Aland Islands", "code": "AX"},
 {"name": "Albania", "code": "AL"},
 {"name": "Algeria", "code": "DZ"},
 {"name": "American Samoa", "code": "AS"},
@@ -200,7 +200,6 @@
 {"name": "Solomon Islands", "code": "SB"},
 {"name": "Somalia", "code": "SO"},
 {"name": "South Africa", "code": "ZA"},
-{"name": "South Georgia and the South Sandwich Islands", "code": "GS"},
 {"name": "Spain", "code": "ES"},
 {"name": "Sri Lanka", "code": "LK"},
 {"name": "Sudan", "code": "SD"},
