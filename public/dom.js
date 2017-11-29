@@ -1,6 +1,5 @@
 (() => {
   var input = document.querySelector('.search_query');
-
   input.addEventListener(
     'keyup', (event) => {
       var inputValue = input.value;
@@ -30,18 +29,3 @@ const list = (value) =>{
   });
   datalist.innerHTML = str;
 }
-
-
-//
-// const List = (value) => {
-//   var mapResults = document.querySelector('.map-results');
-//   var ul = document.createElement('ul');
-//   mapResults.appendChild(ul);
-//   value = value.substring(2,value.length-2);
-//   var array = value.split('","');
-//   array.forEach(function(v) {
-//       var li = document.createElement('li');
-//       li.textContent = v;
-//       ul.appendChild(li);
-//   });
-// }
