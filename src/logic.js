@@ -6,5 +6,4 @@ function checkAndFillter(value,data){
     return acc;
   },[]);
 }
-
 module.exports = checkAndFillter;
