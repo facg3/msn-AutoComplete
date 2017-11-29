@@ -10,6 +10,9 @@ else if(endpoint.startsWith('/public')){
 else if(endpoint=== '/countries'){
   handlers.handleResult(request,response);
 }
+else if(endpoint=== '/longAndatt'){
+  handlers.handleLines(request,response);
+}
 else{
   response.writeHead(404);
   response.end('Page Not Found');
