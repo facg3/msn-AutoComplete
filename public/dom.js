@@ -33,7 +33,6 @@
           xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
               longAndAtt = JSON.parse(xhr.responseText);
-
               map(longAndAtt);
             }
           }
@@ -54,11 +53,12 @@ function list(value) {
 }
 
 function map(longAndAtt) {
-  var mymap = L.map('mapid').setView(longAndAtt, 13);
+  mymap.setView(longAndAtt, 13);
+};
+  var mymap = L.map('mapid').setView([31, 40], 13);
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 6,
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoibWFobW91ZG1oIiwiYSI6ImNqYWt6b2YxdDN5eG4zM25pMXBkYnRxb2gifQ.IjkunbIv9UyHyiT-LyV88g'
   }).addTo(mymap);
-};
