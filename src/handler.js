@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const querystring = require('querystring');
 const logic = require('./logic');
 
 const handleHomePages = (request, response) => {
