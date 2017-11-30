@@ -1,4 +1,5 @@
 (() => {
+
     var input = document.querySelector('.search_query');
     var form = document.getElementById('countriesForm');
     input.addEventListener(
@@ -15,6 +16,8 @@
               value = xhr.responseText;
               list(value);
             }
+
+  
           }
         }
         xhr.open("POST", link);
