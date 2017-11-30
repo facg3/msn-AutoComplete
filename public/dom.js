@@ -5,7 +5,7 @@
       'keyup',
       function(event) {
         var inputValue = input.value;
-        if (event.keyCode < 57) {
+        if (event.keyCode > 9 && event.keyCode < 57) {
           return;
         } else {
           var xhr = new XMLHttpRequest();
@@ -30,6 +30,7 @@
           xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
               longAndAtt = JSON.parse(xhr.responseText);
+
               map(longAndAtt);
             }
           }
