@@ -4,7 +4,7 @@
   input.addEventListener(
     'keyup', (event) => {
       var inputValue = input.value;
-      if (event.keyCode < 57) {
+      if (event.keyCode > 9 && event.keyCode < 57) {
         return;
       } else {
         var xhr = new XMLHttpRequest();
