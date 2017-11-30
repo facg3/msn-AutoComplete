@@ -4,9 +4,7 @@
 
 ## WHO WE ARE!
 
-> Mahmoud Hmaid
-> Salam Dallaoul
-> Nadia Al-Khateb
+> Mahmoud Hmaid, Salam Dallaoul, Nadia Al-Khateb
 
 ## WHAT?
 
