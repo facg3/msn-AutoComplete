@@ -45,3 +45,4 @@ Mahmoud Hmaid, Salam Dallaoul, Nadia Al-Khateb
 
 - Run npm run server to start the server using nodemon (which will automatically restart Node when changes are detected in your files)
 
+## You can run the code locally at `` localhost:5050 ``
